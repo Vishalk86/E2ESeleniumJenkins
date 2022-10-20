@@ -16,7 +16,7 @@ public class TestCase3
 	WebDriver driver = new ChromeDriver();
 	driver.manage().window().maximize();
 	driver.get("https://www.facebook.com/");
-	driver.findElement(By.id("email")).sendKeys("vishal2011cs@yahoo.com");
+	driver.findElement(By.id("email")).sendKeys("vishaltest@gmail.com");
 	driver.findElement(By.id("pass")).sendKeys("12434");
 	driver.quit();
 	}
