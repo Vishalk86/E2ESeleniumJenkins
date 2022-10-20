@@ -10,16 +10,15 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class TestCase1 
 {
 	@Test
-	public void TestC1()
+	public void a()
 	{
-		WebDriverManager.chromedriver().setup();
-		WebDriver driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.get("https://www.facebook.com/");
-		driver.findElement(By.id("email")).sendKeys("vishal2011cs@yahoo.com");
-		driver.findElement(By.id("pass")).sendKeys("12434");
-		driver.quit();
-		
+	WebDriverManager.chromedriver().setup();
+	WebDriver driver = new ChromeDriver();
+	driver.manage().window().maximize();
+	driver.get("https://www.facebook.com/");
+	driver.findElement(By.id("email")).sendKeys("vishal2011cs@yahoo.com");
+	driver.findElement(By.id("pass")).sendKeys("12434");
+	driver.quit();
 	}
 
 }
