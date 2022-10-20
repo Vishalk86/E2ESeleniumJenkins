@@ -18,7 +18,7 @@ public class TestCase1
 	driver.get("https://www.facebook.com/");
 	driver.findElement(By.id("email")).sendKeys("vishal2011cs@yahoo.com");
 	driver.findElement(By.id("pass")).sendKeys("12434");
-	driver.quit();
+	driver.quit();//1234
 	}
 
 }
